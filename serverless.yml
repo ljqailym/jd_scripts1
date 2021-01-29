@@ -27,7 +27,7 @@ inputs:
           name: blueCoin_clublottery_carexchange
           cronExpression: "0 0 0 * * * *"
           enable: true
-          argument: jd_blueCoin&jd_club_lottery&jd_car_exchange
+          argument: jd_blueCoin&jd_club_lottery&jd_car_exchange&jd_baiTiao
     - timer: #东东农场 #东东萌宠 #口袋书店 #京喜农场
         parameters:
           name: fruit_pet_bookshop_jxnc
