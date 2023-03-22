@@ -5,7 +5,7 @@
 [Script]
 #京东上传 = type=http-request,pattern=^https:\/\/api\-dd\.jd\.com\/client\.action\?functionId=getSessionLog,requires-body=1,max-size=0,timeout=1000,script-path=uploadJDCookie.js,script-update-interval=0
 
-京东上传2 = type=http-response,pattern=functionId=getChatSessionLog,requires-body=1,max-size=0,timeout=1000,script-path=uploadJDCookie2.js,script-update-interval=0
+京东上传2 = type=http-response,pattern=functionId=newUserInfo,requires-body=1,max-size=0,timeout=1000,script-path=uploadJDCookie2.js,script-update-interval=0
 
 
 [MITM]
